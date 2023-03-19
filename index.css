@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#main-container {
+    background-color: #F4F4F4;
+    width: 550px;
+    height: 700px;
+    margin: 0px auto;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background: #6943FF;
+    height: 285px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#input-el {
+    width: 100px;
+    height: 70px;
+    background: #6943FF;
+    border: 1px solid #B295FF;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 58px;
+    text-align: center;
+}
+
+#convert-btn {
+    width: 115px;
+    height: 40px;
+    background: white;
+    color: #3D3D3D;
+    border: none;
+    border-radius: 5px;
+}
+
+#conversions-container {
+    background: #F4F4F4;
+}
+
+#conversions-list {
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-top: 50px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conversion-card {
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    font-size: 20px;
+    color: #3D3D3D;
+}
+
+p {
+    font-size: 14px;
+}
+
